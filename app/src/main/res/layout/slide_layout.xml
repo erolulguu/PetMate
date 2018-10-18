@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="fill_parent"
+        android:layout_height="205dp"
+        android:layout_margin="20dp"
+        android:layout_marginBottom="75dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="61dp"
+        app:layout_constraintBottom_toTopOf="@+id/adsoyad"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baatmaan" />
+
+    <TextView
+        android:id="@+id/adsoyad"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:text="Ad Soyad"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/icerik"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="150dp" />
+
+    <TextView
+        android:id="@+id/icerik"
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:layout_alignTop="@+id/adsoyad"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="219dp"
+        android:text="İçerik"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adsoyad"
+        tools:layout_editor_absoluteX="130dp" />
+
+
+
+
+</android.support.constraint.ConstraintLayout>

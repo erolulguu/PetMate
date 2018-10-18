@@ -1,0 +1,59 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorWhite"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.splash.pati.erol.AramaFragment">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/slideViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+    </android.support.v4.view.ViewPager>
+
+    <ImageButton
+        android:id="@+id/like"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_above="@+id/disslike"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="170dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginStart="600dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/slideViewPager"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/slideViewPager"
+        app:layout_constraintVertical_bias="0.49"
+        app:srcCompat="@drawable/ic_thumb_up_white_24dp" />
+
+    <ImageButton
+        android:id="@+id/disslike"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/slideViewPager"
+        android:layout_marginBottom="150dp"
+        android:layout_marginEnd="248dp"
+        android:layout_marginStart="16dp"
+        android:background="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/slideViewPager"
+        app:srcCompat="@drawable/ic_thumb_down_white_24dp" />
+
+
+
+</android.support.constraint.ConstraintLayout>

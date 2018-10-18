@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">erol</string>
+    <string name="facebook_app_id">926846557478221</string>
+    <string name="fb_login_protocol_scheme">fb926846557478221</string>
+    <string name="nav_home">Ana Sayfa</string>
+    <string name="nav_notification">Bildirimler</string>
+    <string name="nav_profile">Profil</string>
+    <string name="nav_search">Arama</string>
+    <string name="nav_message">Mesajlar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

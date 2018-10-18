@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1084622060343",
+    "firebase_url": "https://mutlupatiler-56135.firebaseio.com",
+    "project_id": "mutlupatiler-56135",
+    "storage_bucket": "mutlupatiler-56135.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1084622060343:android:4eca67fbc7274c2d",
+        "android_client_info": {
+          "package_name": "com.splash.pati.erol"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1084622060343-paci79a7k18m2g0q0ot84f5bj20bnmn9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.splash.pati.erol",
+            "certificate_hash": "90754603d447c4424c7f4cc16031f00275581dfa"
+          }
+        },
+        {
+          "client_id": "1084622060343-2bvu5ji0o2qa9ugem982t5j6hsf5d67s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3lQ__-yz87l4DKx3cVxiEBi7LzcU959w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1084622060343-2bvu5ji0o2qa9ugem982t5j6hsf5d67s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
